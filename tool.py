@@ -77,7 +77,7 @@ def main():
 
     salvar = input("\nDeseja salvar o resultado em um arquivo .txt? (s/n): ").strip().lower()
     if salvar == 's':
-        filename = input("Digite o nome do arquivo (sem extensão): ").strip()
+        filename = input("Digite o nome do arquivo sem extensão: ").strip()
         if not filename.endswith('.txt'):
             filename += '.txt'
         try:
